@@ -79,7 +79,7 @@ int idSensor = 666;
 int tempCelsius = 666;
 int umidade = 666;
 //String INSERT_SQL = String("INSERT INTO topicos.dadosTU(usuario, idSensor, tempCelsius, umidade) VALUES('" + usuario + "'," + String(idSensor) + int(tempCelsius) + int(umidade); 
-String INSERT_SQL = String("INSERT INTO ")  + default_database + "." + default_table + " (usuario, idSensor, tempCelsius, umidade) VALUES('" + usuario + "'," + String(idSensor) + int(tempCelsius) + int(umidade); 
+String INSERT_SQL = String("INSERT INTO ")  + "topicos.dadosTU(usuario, idSensor, tempCelsius, umidade) VALUES('" + usuario + "'," + String(idSensor) + int(tempCelsius) + int(umidade); 
 
 MySQL_Connection conn((Client *)&client);
 
